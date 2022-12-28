@@ -1,0 +1,22 @@
+img {
+    height: 620px;
+    width: 30%;
+    margin: calc(10%/6);
+    transition: border-radius ease-out 0.35s, box-shadow ease-out 0.35s, transform ease-out 0.35s;
+}
+
+img:hover {
+    box-shadow: 1em 1em 60px 0.4em rgba(78, 78, 78, 0.518);
+    border-radius: 1.5em;
+    transform: translateY(-0.5px);
+}
+
+nav {
+    font-family: Raleway, sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    padding: 1.5em 0;
+    margin: 1.66%;
+}
